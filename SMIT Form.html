@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMIT Form</title>
+
+    <style>
+        h1 {
+            background-color: aqua;
+            text-align: center;
+        }
+
+        div {
+            color: dodgerblue;
+        }
+
+
+        #black {
+            color: black;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <h1> <u>2nd Assignment SMIT Form - (Trainer : Abdullah Motiwala) - Batch-13</u></h1>
+    <hr>
+    <div>
+        
+        <table>
+           
+            <form action="./thankyou.html" method="get">
+                                <tr>
+                    <td>
+
+
+                        Select Country <br>
+                        <select name="country" id="">
+                            <option value="Select County">Select Country</option>
+                            <option value="pakistan">Pakistan</option>
+                            <option value="turkey">Turkey</option>
+
+                        </select>
+
+
+                    </td>
+                    <td>
+
+                        Select City <br>
+                        <select name="city" id="">
+                            <option value="Seclect City" selected>Select City</option>
+                            <option value="Karachi">Karachi</option>
+                            <option value="Lahore">Lahore</option>
+                            <option value="Islamabad">Islamabad</option>
+                            <option value="Peshawar">Peshawar</option>
+                            <option value="Hyderabad">Hyderabad</option>
+                            <option value="Rawalpindi">Rawalpindi</option>
+
+                        </select>
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+
+                        <br> Select course or event <br>
+                        <select name="course">
+                            <option value="Select course or event">Select course or event</option>
+                            <option value="Turkish Language Course">Turkish Language Course</option>
+                            <option value="Artificial Inteligence & Data Science">Artificial Inteligence & Data Science</option>
+                        </select>
+                    </td>
+                    <td> 
+                        <br>Select Your Computer Proficiency<br>
+                        <select name="Computer Proficiency">
+                            <option>Select Your Computer Proficiency</option>
+                            <option value="None">None</option>
+                            <option value="Beginner">Beginner</option>
+                            <option value="Intermediate">Intermediate</option>
+                            <option value="Advanced">Advanced</option>
+                        </select>
+                    </td>
+
+                <tr>
+                    <td>
+                        <br> Full Name <br>
+                        <input type="text" name="fullname" placeholder="Full Name">
+                    </td>
+                    <td>
+                        <br>Father Name <br>
+                        <input type="text" name="fname" placeholder="Father Name">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+
+                        <br> Email <br>
+                        <input type="email" name="email" placeholder="Email">
+
+                    </td>
+
+                    <td>
+                        <br>Phone <br>
+                        <input type="number" placeholder="Phone" name="num">
+
+                    </td>
+
+
+                </tr>
+
+                <tr>
+                    <td>
+
+                        <br> CNIC <br>
+                        <input type="number" name="cnic" placeholder="CNIC">
+
+                    </td>
+
+                    <td>
+                        <br>Father's CNIC (Optional) <br>
+                        <input type="number" name="fcnic" placeholder="Father's CNIC (Optional)">
+
+                    </td>
+
+
+                </tr>
+
+
+                <tr>
+                    <td>
+
+                        <br> Date of Birth <br>
+                        <input type="date" name="dob" placeholder="Date of Birth">
+
+                    </td>
+
+                    <td>
+                        <br>Select Gender <br>
+                        <select name="gender">
+                            <option value="Select Gender">Select Gender</option>
+                            <option value="Male">Male</option>
+
+                        </select>
+
+                    </td>
+
+
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <br> Address <br>
+
+                        <input type="text" name="address" placeholder="Address">
+
+                    </td>
+
+                </tr>
+
+                <td colspan="2">
+
+                    <br> Last qualification <br>
+                    <select name="lastqua">
+                        <option value="Last qualification">Last qualification</option>
+                        <option value="Matric">Matric</option>
+                        <option value="Intermediate">Intermediate</option>
+                        <option value="Under Graduate">Under Graduate</option>
+                        <option value="Graduate">Graduate</option>
+                        <option value="Masters">Masters</option>
+                        <option value="PHD">PHD</option>
+                        <option value="Other">Other</option>
+                    </select>
+
+                </td>
+                </tr>
+
+                </tr>
+
+                <td colspan="2">
+
+                    <br> Do you have a laptop? <br>
+                    <select name="laptop">
+                        <option value="Do you have a laptop?">Do you have a laptop?</option>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+
+                    </select>
+
+                </td>
+                </tr>
+
+                <tr>
+                    <td> <br>
+                        Picture <br>    
+                     <label for="1"> <img src="./pic.JPG" alt="Upload Pic" height="125" h>
+                   <input type="file" name="Upload Pic" id="1" accept="image/jpeg, image/png" hidden>      
+                       </label>
+               </td>
+
+                    <td id="black">
+                        With white or blue background <br>
+                        File size must be less than 1MB <br>
+                        File type: jpg, jpeg, png <br>
+                        Upload your recent passport size picture <br>
+                        Your Face should be clearly visible without any Glasses
+
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td colspan="2" id="black">
+<ol>
+    <li>I hereby, solemnly declare that the data and facts mentioned herein are true and correct to the best of<br> my knowledge. Further, I will abide by all the<br>  established and future regulations and policies of SWIT</li>
+    <li>I hereby accept the responsibilities of good conduct and<br> guarantee that I will not be involved in any other activity, political or ethical, but<br> learning during my stay in the program.</li>
+    <li>Defiance will render my admission canceled at any point in time.</li>
+    <li>Upon completion, of the course, I will complete the required project by SWIT.</li>
+    <li>It's mandatory for female students to wear abaya/hijab in the class</li>
+</ol>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="submit">
+                    </td>
+                </tr>
+
+            </form>
+        
+       
+        </table>
+    
+    </div>
+
+
+</body>
+
+</html>
